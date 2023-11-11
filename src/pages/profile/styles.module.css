@@ -1,0 +1,22 @@
+.all{
+  padding: 0px 15px;
+  background-color: #f1f5f6;
+}
+
+.img3{
+  width: 230px;
+  height: 120px;
+}
+
+.img{
+  padding:5px 10px;
+}
+
+.img1{
+  width: 40px;
+  height: 40px;
+}
+.part{
+  height: 650px;
+  overflow: auto;
+}

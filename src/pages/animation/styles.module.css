@@ -1,0 +1,74 @@
+.koli{
+  padding: 0px 15px;
+  height: 100vh;
+}
+
+.owl > .owl-dots {
+width:200px;
+background:red;
+}
+
+.all{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0px 10px;
+}
+
+.all1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.all2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.all3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.all4{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.all5{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.img1{
+    padding-bottom: 15px;
+}
+
+.img2{
+  padding-bottom: 15px;
+}
+
+.img3{
+  padding-bottom: 15px;
+}
+
+.img4{
+  padding-bottom: 15px;
+}
+
+.img5{
+  padding-bottom: 15px;
+}
+
+
+.img6{
+  padding-bottom: 15px;
+}
+
+

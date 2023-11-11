@@ -1,0 +1,25 @@
+.body{
+  background: url('../../images/invite.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+}
+
+.gift{
+  width: 110px;
+  height: 130px;
+}
+
+.code{
+  border: 2px dashed gray;
+  background-color: '#cccccc';
+  border-radius: 8px;
+  padding: 0px 6px; 
+}
+
+.koli{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

@@ -1,0 +1,25 @@
+.all{
+  padding: 0px 15px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.input{
+  display: flex;
+  direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border:'2px solid #317fe3';
+  border-radius:10px ;
+  padding-top: 1px ;
+  padding-bottom: 1px;
+  margin-top: 10px;
+  background-color: #e6e6e6;
+}
+
+.next{
+  padding-bottom: 10px;
+}

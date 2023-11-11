@@ -1,0 +1,43 @@
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px 10px;
+  }
+  
+  .all1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+  
+  .all2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .all3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .all4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .all5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .all6{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }

@@ -1,0 +1,15 @@
+.all{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.img{
+  width: 180px;
+  height: 180px;
+}
+.img1{
+  width: 40px;
+  height: 40px;
+}

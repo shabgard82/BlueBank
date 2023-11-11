@@ -1,0 +1,14 @@
+.input{
+  /* border: "solid 2px #4d94ff";
+  border-radius: "15px";
+  background-color: "#d3eaf2";
+  outline: none; */
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: solid 2px #4d94ff;
+  background-color: #d3eaf2;
+}
+

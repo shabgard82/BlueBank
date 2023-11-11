@@ -1,0 +1,13 @@
+.all{
+  height: 100vh;
+}
+
+.video{
+  width: 100%;
+  position: fixed;
+  
+}
+.btn{
+  padding-left: 15px;
+  padding-right: 15px;
+}

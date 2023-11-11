@@ -1,0 +1,8 @@
+.body{
+  background: url('../../images/blueground.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 320px;
+  width: 100%;
+}

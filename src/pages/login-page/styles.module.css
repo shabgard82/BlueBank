@@ -1,0 +1,19 @@
+.inputContainer{
+  overflow: hidden;
+  border: 2px solid #4d94ff;
+  border-radius: 10px;
+  background-color: rgb(247, 240, 255);
+  outline: none;
+}
+
+.input{
+  background-color: transparent;
+  border: none;
+  padding: 10px 10px;
+  width: 100%;
+  outline: none;
+}
+
+.divider{
+  width: 100%;
+}

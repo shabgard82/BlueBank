@@ -1,0 +1,16 @@
+.all{
+  padding: 0px 15px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+}
+
+.otpInput{
+  padding-top: 10px;
+}
+.icon{
+  padding-bottom: 10px;
+}

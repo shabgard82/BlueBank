@@ -1,0 +1,12 @@
+.all{
+  padding: 0px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+
+}
+.img{
+  width: 130px;
+  height: 160px;
+}
