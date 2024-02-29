@@ -13,6 +13,7 @@ import { useNavigate } from "react-router-dom";
 function EnteghalVajh() {
   const navigate = useNavigate();
   const handle = () => navigate("/enteghal-khodkar");
+  const handleClick = () => navigate("/enteghal-cart");
   return (
     <Stack
       pr={1}
@@ -37,7 +38,7 @@ function EnteghalVajh() {
             </IconButton>
           </Stack>
           <Stack>
-            <Typography sx={{fontWeight:'600'}}>transfer</Typography>
+            <Typography sx={{ fontWeight: "600" }}>transfer</Typography>
           </Stack>
           <Stack display="flex" direction="row" alignItems="center">
             <IconButton color="primary">
@@ -69,6 +70,7 @@ function EnteghalVajh() {
       <Stack>
         <Stack display="flex" direction="row" justifyContent="center" pb={10}>
           <Button
+            onClick={handleClick}
             variant="contained"
             sx={{ width: 160, padding: 1, fontWeight: "600" }}
           >

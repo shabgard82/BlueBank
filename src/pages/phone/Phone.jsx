@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Stack, Typography } from "@mui/material";
 import IconButton from "@mui/material/IconButton";
 import styles from "./styles.module.css";
@@ -9,6 +9,9 @@ import MuiDrawer from "../bottom-drawer/drawer";
 import { useForm } from "react-hook-form";
 import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
+import { useDispatch } from "react-redux";
+import { addPhone } from "../../redux/slice/phone";
+
 
 function PhoneNumber() {
   const schema = yup.object().shape({
@@ -24,8 +27,17 @@ function PhoneNumber() {
     formState: { errors },
   } = useForm({ resolver: yupResolver(schema) });
 
+  const dispatch = useDispatch();
+  const [phoneNumber, setPhoneNumber] = useState("");
+
   const onFormSubmit = (data) => {
     navigate("/sms-code");
+    dispatch(addPhone(data.phone));
+  };
+
+  const handlePhone = (event) => {
+    const phoneValue = event.target.value;
+    setPhoneNumber(phoneValue);
   };
 
   const navigate = useNavigate();
@@ -52,6 +64,7 @@ function PhoneNumber() {
         <Typography pt={2}>Enter your phone number</Typography>
         <Stack>
           <input
+            onChange={handlePhone}
             autoFocus
             {...register("phone")}
             className={styles.input}

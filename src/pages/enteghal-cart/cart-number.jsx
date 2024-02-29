@@ -40,7 +40,7 @@ const cardData = {
   5894: { image: refah, name: "Refah Bank" },
 };
 
-function NormalCharge() {
+function Enteghal() {
   const schema = yup.object().shape({
     Cart: yup
       .string()
@@ -168,4 +168,4 @@ function NormalCharge() {
   );
 }
 
-export default NormalCharge;
+export default Enteghal;

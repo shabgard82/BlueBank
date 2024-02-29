@@ -62,7 +62,7 @@ function Animation() {
         <OwlCarousel className={`owl-theme ${styles.owl}`} {...options}>
           <div className={styles.all}>
             <h6 style={{ height: "100%", width: "250px" }}>
-              <img src={purple} className={styles.img1} />
+              <img src={purple} alt="purple" className={styles.img1} />
               <Typography sx={{ textAlign: "center" }}>
                 purple Blue Card
               </Typography>
@@ -70,7 +70,7 @@ function Animation() {
           </div>
           <div className={styles.all1}>
             <h6 style={{ height: "100%", width: "250px" }}>
-              <img src={greenn} className={styles.img2} />
+              <img src={greenn} alt="green" className={styles.img2} />
               <Typography sx={{ textAlign: "center" }}>
                 green Blue Card
               </Typography>
@@ -78,7 +78,7 @@ function Animation() {
           </div>
           <div className={styles.all2}>
             <h6 style={{ height: "100%", width: "250px" }}>
-              <img src={red} className={styles.img3} />
+              <img src={red} alt="red" className={styles.img3} />
               <Typography sx={{ textAlign: "center" }}>
                 red Blue Card
               </Typography>
@@ -86,7 +86,7 @@ function Animation() {
           </div>
           <div className={styles.all3}>
             <h6 style={{ height: "100%", width: "250px" }}>
-              <img src={green} className={styles.img4} />
+              <img src={green} alt="green" className={styles.img4} />
               <Typography sx={{ textAlign: "center" }}>
                 gold Blue Card
               </Typography>
@@ -94,7 +94,7 @@ function Animation() {
           </div>
           <div className={styles.all4}>
             <h6 style={{ height: "100%", width: "250px" }}>
-              <img src={yellow} className={styles.img5} />
+              <img src={yellow} alt="yellow" className={styles.img5} />
               <Typography sx={{ textAlign: "center" }}>
                 yellow Blue Card
               </Typography>
@@ -102,7 +102,7 @@ function Animation() {
           </div>
           <div className={styles.all5}>
             <h6 style={{ height: "100%", width: "250px" }}>
-              <img src={blue} className={styles.img6} />
+              <img src={blue} alt="blue" className={styles.img6} />
               <Typography sx={{ textAlign: "center" }}>
                 blue Blue Card
               </Typography>

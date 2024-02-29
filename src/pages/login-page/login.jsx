@@ -17,6 +17,7 @@ function Login() {
     username: yup.string().required(),
     password: yup.string().min(4).max(8).required(),
   });
+  
   const {
     register,
     handleSubmit,
@@ -28,9 +29,9 @@ function Login() {
 
   const [username, setUserName] = useState("");
 
-  const onFormSubmit = () => {
+  const onFormSubmit = (data) => {
     navigate("/home");
-    dispatch(addUser(username));
+    dispatch(addUser(data.username));
   };
 
   const handleClick = () => {
@@ -59,7 +60,7 @@ function Login() {
 
         <Stack>
           <Stack display="flex" flex-direction="row" justify-content="center">
-            <img src={images} width="100%" height="230px"></img>
+            <img src={images} alt="blue" width="100%" height="230px"></img>
             <Stack>
               <form onSubmit={handleSubmit(onFormSubmit)}>
                 <Stack className={styles.inputContainer}>

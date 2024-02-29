@@ -27,11 +27,7 @@ function Home() {
   }, 0);
 
   return (
-    <Stack
-      display="flex"
-      direction="column"
-      justifyContent="space-between"
-    >
+    <Stack display="flex" direction="column" justifyContent="space-between">
       <Stack className={styles.body}>
         <Stack display="flex" direction="row" justifyContent="space-between">
           <Stack display="flex" direction="row">
@@ -92,7 +88,7 @@ function Home() {
               charge account
             </Typography>
           </Stack>
-          <Stack display="flex" direction="column" alignItems="center" >
+          <Stack display="flex" direction="column" alignItems="center">
             <GroupWorkOutlinedIcon
               sx={{
                 color: "white",
@@ -172,7 +168,7 @@ function Home() {
           </Stack>
         </Stack>
       )}
-      <Stack sx={{position:"fixed",bottom:0, width:"100%"}}>
+      <Stack sx={{ position: "fixed", bottom: 0, width: "100%" }}>
         <LabelBottomNavigation />
       </Stack>
     </Stack>

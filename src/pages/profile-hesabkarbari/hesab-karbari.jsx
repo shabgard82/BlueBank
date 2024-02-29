@@ -24,13 +24,13 @@ function EtelaatHesab() {
         <IconButton sx={{ color: "#4d94ff" }}>
           <ArrowBackIcon onClick={handleBack} />
         </IconButton>
-        <Typography>Create account</Typography>
+        <Typography sx={{fontWeight:'600'}}>Create account</Typography>
         <IconButton color="primary">
           <MuiDrawer />
         </IconButton>
       </Stack>
       <Stack
-        pt={1}
+        pt={2}
         display="flex"
         direction="row"
         justifyContent="space-between"
@@ -43,14 +43,14 @@ function EtelaatHesab() {
           justifyContent="space-around"
         >
           <img src={house} className={styles.img} />
-          <Typography pl={1}>Bank Account</Typography>
+          <Typography pl={2}>Bank Account</Typography>
         </Stack>
         <Stack>
           <ArrowForwardIosIcon sx={{ color: "gray" }} fontSize="30" />
         </Stack>
       </Stack>
       <Stack
-        pt={2}
+        pt={3}
         display="flex"
         direction="row"
         justifyContent="space-between"
@@ -63,14 +63,14 @@ function EtelaatHesab() {
           justifyContent="space-around"
         >
           <img src={simkart} className={styles.img} />
-          <Typography pl={1}>Change mobile phone number</Typography>
+          <Typography pl={2}>Change mobile phone number</Typography>
         </Stack>
         <Stack>
           <ArrowForwardIosIcon sx={{ color: "gray" }} fontSize="30" />
         </Stack>
       </Stack>
       <Stack
-        pt={2}
+        pt={3}
         display="flex"
         direction="row"
         justifyContent="space-between"
@@ -83,14 +83,14 @@ function EtelaatHesab() {
           justifyContent="space-around"
         >
           <img src={loc} className={styles.img} />
-          <Typography pl={1}>Change of residence address</Typography>
+          <Typography pl={2}>Change of residence address</Typography>
         </Stack>
         <Stack>
           <ArrowForwardIosIcon sx={{ color: "gray" }} fontSize="30" />
         </Stack>
       </Stack>
       <Stack
-        pt={2}
+        pt={3}
         display="flex"
         direction="row"
         justifyContent="space-between"
@@ -103,7 +103,7 @@ function EtelaatHesab() {
           justifyContent="space-around"
         >
           <img src={bag} className={styles.img} />
-          <Typography pl={1}>job change</Typography>
+          <Typography pl={2}>job change</Typography>
         </Stack>
         <Stack>
           <ArrowForwardIosIcon sx={{ color: "gray" }} fontSize="30" />

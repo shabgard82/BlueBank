@@ -21,13 +21,13 @@ function BlueClub() {
         <IconButton sx={{ color: "#4d94ff" }}>
           <ArrowBackIcon onClick={handleBack} />
         </IconButton>
-        <Typography>Blue Club</Typography>
+        <Typography sx={{ fontWeight: "600" }}>Blue Club</Typography>
         <IconButton color="primary">
           <MuiDrawer />
           <EventNoteIcon />
         </IconButton>
       </Stack>
-      <Stack pr={1} pl={1} pt={1}>
+      <Stack pr={2} pl={2} pt={2}>
         <img src={Black} className={styles.img} />
       </Stack>
     </Stack>

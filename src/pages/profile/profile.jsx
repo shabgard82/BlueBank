@@ -18,6 +18,7 @@ import javayez from "../../images/javayez.jpg";
 import { useNavigate } from "react-router-dom";
 import LabelBottomNavigation from "../../components/bottom-tabs/bottom-tabs";
 import SuportDrawer from "../support-drawer/support-drawer";
+import { useSelector } from "react-redux";
 
 function Profile() {
   const navigate = useNavigate();
@@ -28,6 +29,8 @@ function Profile() {
   const handle4 = () => navigate("/blue-club");
   const handle5 = () => navigate("/invite-friend");
   const handleEnd = () => navigate("/ghavanin");
+  const username = useSelector((state) => state.userSlice.username);
+  const phonenumber = useSelector((state) => state.PhoneSlice.phonenumber);
 
   return (
     <Stack
@@ -71,8 +74,8 @@ function Profile() {
           alignItems="center"
           pb={2}
         >
-          <Typography sx={{ fontWeight: "600" }}>Erfan Shabgard</Typography>
-          <Typography sx={{ color: "gray" }}>0901 2529 678</Typography>
+          <Typography sx={{ fontWeight: "600" }}>{username}</Typography>
+          <Typography sx={{ color: "gray" }}>{phonenumber}</Typography>
         </Stack>
       </Stack>
       <Stack className={styles.part}>

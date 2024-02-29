@@ -7,8 +7,8 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { useNavigate } from "react-router-dom";
 
 function Notice() {
-  const navigate=useNavigate();
-  const handleBack=()=>navigate('/profile');
+  const navigate = useNavigate();
+  const handleBack = () => navigate("/profile");
   return (
     <Stack className={styles.all}>
       <Stack
@@ -18,37 +18,61 @@ function Notice() {
         alignItems="center"
       >
         <IconButton sx={{ color: "#4d94ff" }}>
-          <ArrowBackIcon onClick={handleBack}/>
+          <ArrowBackIcon onClick={handleBack} />
         </IconButton>
-        <Typography>Notification settings</Typography>
+        <Typography sx={{ fontWeight: "600" }}>
+          Notification settings
+        </Typography>
         <IconButton color="primary">
           <MuiDrawer />
         </IconButton>
       </Stack>
-      <Stack display='flex' direction='row' justifyContent='space-between' alignItems='center'>
+      <Stack
+        display="flex"
+        direction="row"
+        justifyContent="space-between"
+        alignItems="center"
+        pt={2}
+      >
         <Stack>
           <Typography>Security notifications</Typography>
         </Stack>
-        <Stack display='flex' direction='row' alignItems='center' pt={2}>
-          <Typography sx={{color:'gray'}} pr={2}>SMS</Typography>
+        <Stack display="flex" direction="row" alignItems="center" pt={3}>
+          <Typography sx={{ color: "gray" }} pr={2}>
+            SMS
+          </Typography>
           <ArrowForwardIosIcon sx={{ color: "gray" }} fontSize="30" />
         </Stack>
       </Stack>
-      <Stack display='flex' direction='row' justifyContent='space-between' alignItems='center'>
+      <Stack
+        display="flex"
+        direction="row"
+        justifyContent="space-between"
+        alignItems="center"
+      >
         <Stack>
           <Typography>Notification of transactions</Typography>
         </Stack>
-        <Stack display='flex' direction='row' alignItems='center' pt={2}>
-          <Typography sx={{color:'gray'}} pr={2}>notifications</Typography>
+        <Stack display="flex" direction="row" alignItems="center" pt={3}>
+          <Typography sx={{ color: "gray" }} pr={2}>
+            notifications
+          </Typography>
           <ArrowForwardIosIcon sx={{ color: "gray" }} fontSize="30" />
         </Stack>
       </Stack>
-      <Stack display='flex' direction='row' justifyContent='space-between' alignItems='center'>
+      <Stack
+        display="flex"
+        direction="row"
+        justifyContent="space-between"
+        alignItems="center"
+      >
         <Stack>
           <Typography>Login notifications</Typography>
         </Stack>
-        <Stack display='flex' direction='row' alignItems='center' pt={2}>
-          <Typography sx={{color:'gray'}} pr={2}>notifications</Typography>
+        <Stack display="flex" direction="row" alignItems="center" pt={3}>
+          <Typography sx={{ color: "gray" }} pr={2}>
+            notifications
+          </Typography>
           <ArrowForwardIosIcon sx={{ color: "gray" }} fontSize="30" />
         </Stack>
       </Stack>

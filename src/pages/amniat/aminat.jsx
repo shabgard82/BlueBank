@@ -26,14 +26,14 @@ function Amniat() {
         <IconButton sx={{ color: "#4d94ff" }}>
           <ArrowBackIcon onClick={handleBack}/>
         </IconButton>
-        <Typography>Security and privacy</Typography>
+        <Typography fontWeight='600'>Security and privacy</Typography>
         <IconButton color="primary">
           <MuiDrawer />
         </IconButton>
       </Stack>
       <Stack>
         <Stack
-          pt={2}
+          pt={3}
           display="flex"
           direction="row"
           justifyContent="space-between"
@@ -46,14 +46,14 @@ function Amniat() {
             justifyContent="space-around"
           >
             <img src={fingerPrint} className={styles.img} />
-            <Typography pl={1}>Fingerprint login</Typography>
+            <Typography pl={2}>Fingerprint login</Typography>
           </Stack>
           <Stack>
             <ArrowForwardIosIcon sx={{ color: "gray" }} fontSize="30" />
           </Stack>
         </Stack>
         <Stack
-          pt={2}
+          pt={3}
           display="flex"
           direction="row"
           justifyContent="space-between"
@@ -66,14 +66,14 @@ function Amniat() {
             justifyContent="space-around"
           >
             <img src={changePass} className={styles.img} />
-            <Typography pl={1}>change Password</Typography>
+            <Typography pl={2}>change Password</Typography>
           </Stack>
           <Stack>
             <ArrowForwardIosIcon sx={{ color: "gray" }} fontSize="30" />
           </Stack>
         </Stack>
         <Stack
-          pt={2}
+          pt={3}
           display="flex"
           direction="row"
           justifyContent="space-between"
@@ -86,14 +86,14 @@ function Amniat() {
             justifyContent="space-around"
           >
             <img src={password} className={styles.img} />
-            <Typography pl={1}>Transaction code</Typography>
+            <Typography pl={2}>Transaction code</Typography>
           </Stack>
           <Stack>
             <ArrowForwardIosIcon sx={{ color: "gray" }} fontSize="30" />
           </Stack>
         </Stack>
         <Stack
-          pt={2}
+          pt={3}
           display="flex"
           direction="row"
           justifyContent="space-between"
@@ -102,18 +102,18 @@ function Amniat() {
           <Stack
             display="flex"
             direction="row"
-            alignItems="center"
+            alignItems="center"Amniat
             justifyContent="space-around"
           >
             <img src={myphone} className={styles.img} />
-            <Typography pl={1}>My devices</Typography>
+            <Typography pl={2}>My devices</Typography>
           </Stack>
           <Stack>
             <ArrowForwardIosIcon sx={{ color: "gray" }} fontSize="30" />
           </Stack>
         </Stack>
         <Stack
-          pt={2}
+          pt={3}
           display="flex"
           direction="row"
           justifyContent="space-between"
@@ -126,14 +126,14 @@ function Amniat() {
             justifyContent="space-around"
           >
             <img src={enteghal} className={styles.img} />
-            <Typography pl={1}>Transfer money to contacts</Typography>
+            <Typography pl={2}>Transfer money to contacts</Typography>
           </Stack>
           <Stack>
             <ArrowForwardIosIcon sx={{ color: "gray" }} fontSize="30" />
           </Stack>
         </Stack>
         <Stack
-          pt={2}
+          pt={3}
           display="flex"
           direction="row"
           justifyContent="space-between"
@@ -146,7 +146,7 @@ function Amniat() {
             justifyContent="space-around"
           >
             <img src={logout} className={styles.img} />
-            <Typography pl={1}>Sign out of the account</Typography>
+            <Typography pl={2}>Sign out of the account</Typography>
           </Stack>
           <Stack>
             <ArrowForwardIosIcon sx={{ color: "gray" }} fontSize="30" />

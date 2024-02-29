@@ -9,6 +9,8 @@ import pardakht from "../../images/pardakht.jpg";
 import SaveAltIcon from "@mui/icons-material/SaveAlt";
 import ShareIcon from "@mui/icons-material/Share";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+import SearchIcon from "@mui/icons-material/Search";
 
 function FishPardakht() {
   const random_code = Math.floor(1000000000 + Math.random() * 90000000);
@@ -23,6 +25,7 @@ function FishPardakht() {
   const handleBack = () => navigate("/home");
   const { Money } = useSelector((state) => state.maliSlice);
   const cardNumber = useSelector((state) => state?.numberSlice?.cardNumber);
+  const username = useSelector((state) => state.userSlice.username);
 
   return (
     <Stack
@@ -52,16 +55,36 @@ function FishPardakht() {
           <Stack
             display="flex"
             direction="row"
-            justifyContent="center"
             alignItems="center"
+            justifyContent="center"
             pt={3}
           >
             <img src={pardakhtprof} width="100px" height="70px" />
           </Stack>
+          {/* <Stack position="relative" sx={{ display: "inline-flex" }}>
+              <AccountCircleIcon style={{ fontSize: 78 ,color:'blue'}} />
+              <Stack
+                position="absolute"
+                bottom={0}
+                left={0}
+                transform="translate(-50%, 50%)"
+                display="flex"
+                alignItems="center"
+                justifyContent="center"
+                width={30}
+                height={30}
+                bgcolor="white"
+                borderRadius="50%"
+                zIndex={1}
+              >
+                <SearchIcon style={{ fontSize: 16 ,color:'blue'}} />
+              </Stack>
+            </Stack>
+          </Stack> */}
           <Typography
             sx={{ fontWeight: "550", fontSize: "13px", textAlign: "center" }}
           >
-            Erfan Shabgard
+            {username}
           </Typography>
           <Typography
             sx={{
